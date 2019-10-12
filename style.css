@@ -1,0 +1,125 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content {
+    background-image: linear-gradient(-200deg, pink, red, orange, yellow, green, blue, purple);
+    padding:30px;
+    margin: 30px;
+    display: flex;
+}
+
+.column1, .column2 {
+    margin: auto;
+}
+
+.title{
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+
+.form1, .form2, .form3, .form4, .form5{
+    width: 450px;
+    margin: 50px;
+}
+
+.form-in{
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 20px;
+    border: 20px solid rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    background-clip: padding-box;  
+    font-size: 12px;
+    opacity: 0.9;
+}
+
+.form-input{
+    display: flex;
+    border: 1px solid grey;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+
+.form-radio{
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    opacity: 0.9;
+    color: grey;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    width: 95%;
+   
+}
+
+.form-button3 {
+    background-color: green;
+    padding: 10px;
+    width: 50%;
+    color: #fff;
+}
+
+.form-button-button{
+    display: flex;
+}
+
+.form-button4, .form-button5{
+    background-color: green;
+    padding: 10px;
+    width: 50%;
+    color: #fff;
+}
+
+.form-button-shadow{
+    background-color: green;
+    padding: 10px;
+    width: 50%;
+    color: #fff;
+    opacity: 0.6;
+}
+
+.form-button-red{
+    background-color: red;
+    padding: 10px;
+    width: 50%;
+    color: #fff;
+}
+
+.input-radio {
+    width: 5%;
+    text-align: center;
+}
+
+input, textarea, select{
+    border:none;
+    padding-left:10px;
+    padding-right:10px;
+    width: 100%;
+}
+
+textarea, select {
+    width: 100%;
+}
+
+.form-radio{
+    display: flex;
+    font-size: 10px;
+}
+
+.form-button1{
+    background-color: green;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+}
+
